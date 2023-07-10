@@ -1,0 +1,273 @@
+/* common css  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.button{
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+}
+.center{
+    text-align: center;
+}
+.margin-top{
+    margin-top: 20px;
+}
+
+/* 
+============================================
+banner part css
+=========================================  */
+
+.banner{
+    width: 100%;
+    height: 850px;
+    flex-shrink: 0;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 100px;
+    box-sizing: border-box;
+}
+  /* banner tes css  */
+.banner-text{
+    width: 708px;
+}
+.banner-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    width: 708px;
+}
+.banner-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+    margin: 30px 0px;
+}
+/* banner img css  */
+.banner-img{
+    /* width: 635px; */
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.banner-img img{
+    width: 100%;
+}
+
+/* =========================================
+Featured Flowers section related css  
+============================================*/
+
+/* Featured Flowers heading and paragrap relates css  */
+.Featured-Flowers{
+    padding: 120px 120px 78px 120px;
+    box-sizing: border-box;
+}
+.Featured-Flowers-heading-text{
+    text-align: center;
+}
+.Featured-Flowers-heading-text h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.Featured-Flowers-heading-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    width: 594px;
+}
+
+/* Featured Flowers img related css */
+
+.Featured-Flowers-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 20px;
+}
+.Featured-Flowers-container-inner div{
+    width: 435px;
+    height: 538px;
+    border-radius: 46% 46% 0px 0px;
+    display:flex ;
+    justify-content: center;
+    align-items: end;
+    background-color: aquamarine;
+}
+/* Featured Flowers services related css */
+.servces{
+    height: 320px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0% 7%;
+}
+.servces p{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* 
+---------------------------------------
+hot deal section related css 
+-------------------------------------- */
+.deal{
+    height: 620px;
+    width:100% ;
+    background: rgba(229, 84, 115, 0.05);
+    display:flex ;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+/* deal text related css  */
+.deal-text{
+    width:  594px;
+    text-align: center;
+}
+.deal-text h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deal-text p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+/* -----------------------------
+   instagram related css 
+----------------------------- */
+/* .instagram heading and text  */
+.instagram{
+    padding: 120px 120px 78px 120px;
+    box-sizing: border-box;
+}
+.instagram h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* .instagram image related css  */
+.instagram-image{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram-image div{
+    width: 24%;
+}
+.instagram-image div img{
+    width: 100%;
+    height: auto;
+}
+/* .instagram letest deal related css  */
+
+.letest-deal {
+    height: 449px;
+    background: url('img/Rectangle9.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+    border-radius: 8px;
+    margin-top: 90px;
+}
+input[type="email"]{
+    height: 64px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    width: 700px;
+    margin-right: 20px;
+}
+input{
+    border: none;
+}
+.letest-deal div{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*------------------------------------
+ foooter releted css 
+ --------------------------------- */
+
+ footer{
+    height: 449px;
+    background: #111010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ footer h2{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+ }
+ footer .footer-text{
+    color:  rgba(255, 255, 255, 0.90);
+    margin: auto;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+ footer .copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+ }
