@@ -26,7 +26,6 @@ banner part css
 =========================================  */
 
 .banner{
-    width: 100%;
     height: 850px;
     flex-shrink: 0;
     background-color: rgba(229, 84, 115, 0.1);
@@ -58,14 +57,14 @@ banner part css
 }
 /* banner img css  */
 .banner-img{
-    /* width: 635px; */
+    width: 635px;
     height: 100%;
     display: flex;
     align-items: end;
     justify-content: end;
 }
 .banner-img img{
-    width: 100%;
+    width: 600px;
 }
 
 /* =========================================
@@ -76,6 +75,7 @@ Featured Flowers section related css
 .Featured-Flowers{
     padding: 120px 120px 78px 120px;
     box-sizing: border-box;
+    width: 100%;
 }
 .Featured-Flowers-heading-text{
     text-align: center;
@@ -104,6 +104,7 @@ Featured Flowers section related css
     justify-content: space-between;
     margin-top: 50px;
     gap: 20px;
+    width: 100%;
 }
 .Featured-Flowers-container-inner div{
     width: 435px;
@@ -139,7 +140,6 @@ hot deal section related css
 -------------------------------------- */
 .deal{
     height: 620px;
-    width:100% ;
     background: rgba(229, 84, 115, 0.05);
     display:flex ;
     justify-content: center;
@@ -324,6 +324,7 @@ hot deal section related css
 /* -------------- top rating section related css -------------------- */
 .our-top-rateing-flower {
     padding: 80px 120px 80px 120px;
+    width: 100%;
 }
 .our-top-rateing-flower-inner{
     padding: 50px;
