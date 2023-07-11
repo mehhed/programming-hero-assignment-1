@@ -1,4 +1,4 @@
-/* common css  */
+/* ------------------- common css -------------- */
 *{
     margin: 0%;
     padding: 0%;
@@ -36,7 +36,7 @@ banner part css
     padding: 0% 100px;
     box-sizing: border-box;
 }
-  /* banner tes css  */
+  /*---------- banner text css--------------  */
 .banner-text{
     width: 708px;
 }
@@ -72,7 +72,7 @@ banner part css
 Featured Flowers section related css  
 ============================================*/
 
-/* Featured Flowers heading and paragrap relates css  */
+/* ----------Featured Flowers heading and paragrap relates css ----------- */
 .Featured-Flowers{
     padding: 120px 120px 78px 120px;
     box-sizing: border-box;
@@ -97,7 +97,7 @@ Featured Flowers section related css
     width: 594px;
 }
 
-/* Featured Flowers img related css */
+/* ----------Featured Flowers img related css ----------------*/
 
 .Featured-Flowers-container{
     display: flex;
@@ -114,7 +114,7 @@ Featured Flowers section related css
     align-items: end;
     background-color: aquamarine;
 }
-/* Featured Flowers services related css */
+/*------------- Featured Flowers services related css------------- */
 .servces{
     height: 320px;
     background: rgba(39, 39, 39, 0.05);
@@ -146,7 +146,7 @@ hot deal section related css
     gap: 100px;
     align-items: center;
 }
-/* deal text related css  */
+/* ----------------deal text related css--------------  */
 .deal-text{
     width:  594px;
     text-align: center;
@@ -165,10 +165,12 @@ hot deal section related css
     line-height: 30px;
     margin: 20px 0px;
 }
+
 /* -----------------------------
    instagram related css 
 ----------------------------- */
-/* .instagram heading and text  */
+
+/*  ------------instagram heading and text-------------  */
 .instagram{
     padding: 120px 120px 78px 120px;
     box-sizing: border-box;
@@ -190,7 +192,7 @@ hot deal section related css
     margin-top: 20px;
     margin-bottom: 20px;
 }
-/* .instagram image related css  */
+/* ---------------.instagram image related css-------------------  */
 .instagram-image{
     display: flex;
     justify-content: space-between;
@@ -202,7 +204,7 @@ hot deal section related css
     width: 100%;
     height: auto;
 }
-/* .instagram letest deal related css  */
+/* .-----------------instagram letest deal related css ------------- */
 
 .letest-deal {
     height: 449px;
@@ -277,7 +279,8 @@ input{
  /* ========================
   my extra work css 
  ========================== */
- /* contact section css  */
+
+ /* ------------contact section css---------------  */
  .contac-us {
     padding: 80px 120px 80px 120px;
     background-color: #fef6f8;
@@ -313,4 +316,128 @@ input{
     margin-bottom: 20px;
     border: none;
     border-radius: 8px;
+}
+/* -------------- top rating section related css -------------------- */
+.our-top-rateing-flower {
+    padding: 80px 120px 80px 120px;
+}
+.our-top-rateing-flower-inner{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.rateing-flowers{
+    width: 23%;
+    height: 300px;
+    background-color: aqua;
+    position: relative;
+}
+.rateing-flowers img{
+   object-fit: cover;
+   height: 100%;
+   width: 100%;
+}
+.rating-flowers-text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------rateing text hover effect css ---------------- */
+
+/* ---------- ration flower 1 css ---------------*/
+.flower-rating-1{
+    background-color:#80808083;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.rateing-flowers:hover .flower-rating-1{
+    visibility: visible;
+    opacity: 1;
+}
+.rate-1{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 40px;
+    transition: all .4s ease-in-out;
+}
+.rateing-flowers:hover .rate-1{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+}
+/* ------------ ration flower 2 css ----------------*/
+.flower-rating-2{
+    background-color:#80808083;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.rateing-flowers:hover .flower-rating-2{
+    visibility: visible;
+    opacity: 1;
+}
+.rate-2{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 40px;
+    transition: all .4s ease-in-out;
+}
+.rateing-flowers:hover .rate-2{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+}
+/*------------------ ration flower 3 css ------------------------*/
+.flower-rating-3{
+    background-color:#80808083;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.rateing-flowers:hover .flower-rating-3{
+    visibility: visible;
+    opacity: 1;
+}
+.rate-3{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 40px;
+    transition: all .4s ease-in-out;
+}
+.rateing-flowers:hover .rate-3{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
+}
+/* ----------------ration flower 4 css------------------------- */
+.flower-rating-4{
+    background-color:#80808083;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.rateing-flowers:hover .flower-rating-4{
+    visibility: visible;
+    opacity: 1;
+}
+.rate-4{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 40px;
+    transition: all .4s ease-in-out;
+}
+.rateing-flowers:hover .rate-4{
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0px;
 }
