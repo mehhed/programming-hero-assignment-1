@@ -217,23 +217,27 @@ hot deal section related css
     border-radius: 8px;
     margin-top: 90px;
 }
-input[type="email"]{
+.letest-deal-from  .deal-email{
     height: 64px;
+    width: 700px;
     border-radius: 8px;
     font-size: 16px;
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 16px;
     font-weight: 400;
-    width: 700px;
     margin-right: 20px;
 }
-input{
+.letest-deal-from > input{
     border: none;
 }
-.letest-deal div{
+.letest-deal > div{
     text-align: center;
     margin-top: 10px;
+}
+.letest-deal-from{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
 /*------------------------------------
@@ -281,19 +285,19 @@ input{
  ========================== */
 
  /* ------------contact section css---------------  */
- .contac-us {
+.contact-us {
     padding: 80px 120px 80px 120px;
     background-color: #fef6f8;
 }
-.contac-us > div{
+.contact-us > .contact-location-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.contac-us-inner{
-    width: 45%;
+.shop-location, .contact-from{
+    width: 45% !important;
 }
-.contac-us-inner input[type="text"], input[type="email"]{
+.contact-from  .name-email{
     width: 100%;
     height: 30px;
     color: rgba(39, 39, 39, 0.60);
@@ -305,14 +309,14 @@ input{
     margin-bottom: 20px;
     padding: 10px;
 }
-.contac-us-inner label{
+.contact-from  label{
     font-size: 25px;
 }
-.contac-us-inner textarea{
+.contact-from  .textarea{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-weight: 400;
-    width: 100%;
+    width: 103%;
     margin-bottom: 20px;
     border: none;
     border-radius: 8px;

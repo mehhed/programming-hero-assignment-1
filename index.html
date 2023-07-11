@@ -6,7 +6,10 @@
     <title>Flower Shop</title>
     <!--  font awesome 6.4.0 link  -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
-
+    <!-- google gont link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <!-- external css file link  -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -80,7 +83,7 @@
                         <img src="https://media.istockphoto.com/id/582297490/photo/bouquet-of-red-roses-on-a-black-background-top-view.jpg?s=612x612&w=0&k=20&c=tMUCpNKZQAa2hOsOGWKRjDgNuwBER1r3dYROUTyjouY=" alt="">
                         <div class="rating-flowers-text flower-rating-1">
                             <h1 style="margin-bottom: 0px; color: #ffffff;">Rad rose</h1>
-                            <h3 style="color: #ffffff;">10$</h3>
+                            <h3 style="color: #ffffff; margin-bottom:10px;">10$</h3>
                             <div class="rate-1">
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
@@ -94,7 +97,7 @@
                         <img src="https://e0.pxfuel.com/wallpapers/382/585/desktop-wallpaper-white-rose-h5-background-flower-phone-white-roses-background-beautiful-flowers-beautiful-black-and-white-flower.jpg" alt="">
                         <div class="rating-flowers-text flower-rating-2">
                             <h1 style="margin-bottom: 0px; color: #ffffff;">White rose</h1>
-                            <h3 style="color: #ffffff;">15$</h3>
+                            <h3 style="color: #ffffff; margin-bottom:10px;">15$</h3>
                             <div class="rate-2">
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
@@ -108,7 +111,7 @@
                         <img src="https://img.freepik.com/premium-photo/black-rose-flower-close-up-dark-roses-background-generative-ai_691560-9494.jpg?w=740" alt="">
                         <div class="rating-flowers-text flower-rating-3">
                             <h1 style="margin-bottom: 0px; color: #ffffff;">Black rose</h1>
-                            <h3 style="color: #ffffff;">20$</h3>
+                            <h3 style="color: #ffffff; margin-bottom:10px;">20$</h3>
                             <div class="rate-3">
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
@@ -122,7 +125,7 @@
                         <img src="https://st.depositphotos.com/1003800/2354/i/950/depositphotos_23549873-stock-photo-mixed-pastel-roses.jpg" alt="">
                         <div class="rating-flowers-text flower-rating-4">
                             <h1 style="margin-bottom: 0px; color: #ffffff;">Mix rose</h1>
-                            <h3 style="color: #ffffff;">25$</h3>
+                            <h3 style="color: #ffffff; margin-bottom:10px;">25$</h3>
                             <div class="rate-4">
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
                                 <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
@@ -173,36 +176,38 @@
                     <p class="center">$30 coupon for first shopping</p>
                     <div>
                         <form action="">
-                            <input type="email" name="" placeholder=" Enter your email here....." id="">
-                            <input type="submit" value="Subscribe" class="button">
+                            <div class="letest-deal-from">
+                                <input type="email" class="deal-email" name="" placeholder="    Enter your email here....." id="">
+                                <input type="submit" value="Subscribe" class="button">
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- contact section  -->
-        <section class="contac-us">
+        <!-- ----------------------- contact section----------------------- -->
+        <section class="contact-us">
             <h1 class="center" style="font-size: 40px; margin-bottom: 50px;">Contact Us</h1>
-            <div>
-                <div class="contac-us-inner shop-location">
+            <div class="contact-location-container">
+                <div class="shop-location">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49244.598197624044!2d91.16988585934476!3d23.455895321191704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37547f249815015d%3A0x549a77e542115f77!2sCumilla!5e0!3m2!1sen!2sbd!4v1679765995340!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="contac-us-inner contact">
+                <div class="contact-from">
                     <form action="">
                         <label for="name">
                             Your name : <br>
-                            <input type="text" id="name">
+                            <input class="name-email" type="text" id="name">
                         </label> <br>
                         <label for="email">
                             Your email : <br>
-                            <input type="email" id="email">
+                            <input class="name-email" type="email" id="email">
                         </label><br>
                         <label for="textarea">
                             massage : <br>
-                            <textarea id="textarea" cols="30" rows="5"></textarea>
+                            <textarea id="textarea" class="textarea" cols="30" rows="5" ></textarea>
                         </label>
                         <div>
-                            <input class="button" type="submit" value="Submit">
+                            <input class="button" style="border: none;" type="submit" value="Submit">
                         </div>
                     </form>
                 </div>
