@@ -271,3 +271,46 @@ input{
     font-size: 16px;
     font-weight: 400;
  }
+
+
+
+ /* ========================
+  my extra work css 
+ ========================== */
+ /* contact section css  */
+ .contac-us {
+    padding: 80px 120px 80px 120px;
+    background-color: #fef6f8;
+}
+.contac-us > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contac-us-inner{
+    width: 45%;
+}
+.contac-us-inner input[type="text"], input[type="email"]{
+    width: 100%;
+    height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.contac-us-inner label{
+    font-size: 25px;
+}
+.contac-us-inner textarea{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+}
